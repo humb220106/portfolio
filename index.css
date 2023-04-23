@@ -1,0 +1,183 @@
+/* .container{
+position: static;
+font-size: large;
+} */
+
+.nav-item a:hover{
+  color: rgb(141, 141, 21);
+    }
+    
+
+  .link a,
+  .social-links a {
+    color: #66fcf1;
+    text-decoration: none;
+  }
+  .link a:hover {
+    color: white;
+  }
+  .headerlogo {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+  }
+  button a {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: white;
+    text-decoration: none;
+  }
+  span #menuicon {
+    float: right;
+  }
+  header {
+    background: transparent;
+    height: 4rem;
+  }
+  #headerlogo {
+    height: 3rem;
+    padding: 20px;
+  }
+  .btn {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  /* JUMBOTRON */
+  .jumbotron::before {
+    content: "";
+    background-image: url("https://media.istockphoto.com/photos/metallic-abstract-cubes-are-turning-3d-illustration-picture-id1196262493?k=20&m=1196262493&s=612x612&w=0&h=-JlXdNiiPy4HXDgee6xjXZfBMiflVJz8xsCGcjBinR0=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* opacity: 1; */
+  }
+  #jumbotron {
+    color: #c5c6c7;
+  }
+  /* ABOUT ME */
+  #Joseph {
+    padding-top: 13px;
+    color: #66fcf1;
+  }
+  #About-Me {
+    padding: 30px 30px;
+    background-color: #1f2833;
+    color: #c5c6c7;
+    font-family: "Almendra";
+    font-size: 22px;
+  }
+  .proceed .btn a {
+    text-decoration: none;
+    color: white;
+  }
+  .here {
+    color: white;
+  }
+  .proceed .btn {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border: 1px solid #66fcf1;
+    background: transparent;
+    margin-bottom: 2%;
+  }
+  /* CONTACT SECTION */
+  .H3 {
+    font-size: 1rem;
+    letter-spacing: 0.07rem;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #fff;
+  }
+  .H-6 {
+    font-family: "Almendra SC";
+    font-size: 20px;
+  }
+  .wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px -10px rgb(0 0 0 / 18%);
+  }
+  .icon {
+    margin-right: 7.5px;
+    border-radius: 50%;
+    color: white;
+  }
+  #Contact{
+    background-color: #1f2833;
+  }
+  #contactheader {
+    color: white;
+  }
+  #contactcontent {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .text {
+    color: #d9d9d9;
+  }
+  a {
+    text-decoration: none;
+  }
+  .formsection input {
+    border: 0;
+    outline: none;
+    border-bottom: 1.5px solid white;
+    background-color: transparent;
+  }
+  textarea {
+    outline: none;
+    border: none;
+    border-bottom: 1.2px solid white;
+    background: transparent;
+  }
+  hr {
+    color: #c5c6c7;
+  }
+  .H-3 {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #66fcf1;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .socialicon {
+    color: #66fcf1;
+  }
+  /* Services&Skills */
+  .card img {
+    width: 64px;
+    height: 64px;
+  }
+  .Services {
+    /* background-color: #1f2833; */
+    background-color: #0f1e2d;
+    font-family: "Almendra";
+  }
+  /* footer  section*/
+  footer {
+    background-color: #1f2833;
+    color: #66fcf1;
+    font-family: "Almendra";
+    font-size: 1.5rem;
+  }
+
+ 
